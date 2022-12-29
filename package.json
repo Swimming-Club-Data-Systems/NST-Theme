@@ -1,0 +1,30 @@
+{
+  "name": "chester",
+  "version": "1.0.0",
+  "description": "Key Details\r * Author: Chris Heppell\r * Author URI: http://www.heppellit.com\r * Description: Chester le Street ASC (Bootstrap 4 for WordPress)\r * Tags: responsive-layout, white, custom-menu, right-sidebar, threaded-comments, red\r * Version: 2.0.0\r * Text Domain: chester\r * License: GNU General Public License v2.0\r * License URI: http://www.gnu.org/licenses/gpl-2.0.html",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite --port=5173",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chester-le-Street-ASC/chester.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chester-le-Street-ASC/chester/issues"
+  },
+  "homepage": "https://github.com/Chester-le-Street-ASC/chester#readme",
+  "devDependencies": {
+    "sass": "^1.57.1",
+    "vite": "^4.0.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1",
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.3.0-alpha1"
+  }
+}

@@ -1,0 +1,15 @@
+/* Cookie Notice CSS */
+
+#cookie-law {
+    background: var(--bs-gray-900);
+    color: var(--bs-gray-100);
+    margin: 0;
+    padding: 0.8rem 0 0.8rem 0;
+}
+#cookie-law .alert-link {
+    text-decoration: underline;
+	color: var(--bs-gray-100);
+}
+#cookie-law .alert-link:hover {
+	color: var(--bs-gray-200);
+}

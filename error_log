@@ -1,0 +1,32 @@
+[16-Dec-2021 00:39:59 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/chesterl/public_html/wp-content/themes/chester/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/chesterl/public_html/wp-content/themes/chester/404.php on line 13
+[17-Dec-2021 21:23:51 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/chesterl/public_html/wp-content/themes/chester/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/chesterl/public_html/wp-content/themes/chester/404.php on line 13
+[19-Dec-2021 13:43:03 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/chesterl/public_html/wp-content/themes/chester/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/chesterl/public_html/wp-content/themes/chester/404.php on line 13
+[21-Dec-2021 09:53:47 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/chesterl/public_html/wp-content/themes/chester/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/chesterl/public_html/wp-content/themes/chester/404.php on line 13
+[24-Dec-2021 02:41:12 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/chesterl/public_html/wp-content/themes/chester/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/chesterl/public_html/wp-content/themes/chester/404.php on line 13
+[26-Dec-2021 19:26:32 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/chesterl/public_html/wp-content/themes/chester/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/chesterl/public_html/wp-content/themes/chester/404.php on line 13
+[27-Dec-2021 23:55:28 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/chesterl/public_html/wp-content/themes/chester/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/chesterl/public_html/wp-content/themes/chester/404.php on line 13
+[28-Dec-2021 14:24:23 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/chesterl/public_html/wp-content/themes/chester/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/chesterl/public_html/wp-content/themes/chester/404.php on line 13
