@@ -110,7 +110,7 @@ $current_url = urlencode(home_url(add_query_arg(array(), $wp->request)));
                 <div class="col source-org vcard copyright">
                     <p class="mb-0" style="margin-bottom:0">&copy; <?php echo current_time("Y", $gmt = 0); ?> <span
                                 class="org fn">Newcastle Swim Team</span>. NST is not responsible for
-                        the content of external sites. Design Copyright <a href="https://myswimmingclub.uk/"
+                        the content of external sites. Design Copyright <a class="text-white" href="https://myswimmingclub.uk/"
                                                                            target="_blank">Swimming Club Data
                             Systems</a> 2022.</p>
                 </div>

@@ -1,4 +1,4 @@
-<?php /* Template Name: Single Column Page Template with Title */ ?>
+<?php /* Template Name: Single Column Page Template with Title (No sidebar) */ ?>
 
 	<?php get_header(); ?>
     <?php get_template_part( 'pageheader' ); ?>

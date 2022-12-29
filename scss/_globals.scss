@@ -4,6 +4,10 @@
 //
 // Generate contextual modifier classes for colorizing the alert.
 
+:root {
+  font-feature-settings: "cv11", "ss01";
+}
+
 .post img, .wp-caption img, img {
     height: auto;
     max-width: 100%

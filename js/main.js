@@ -8,6 +8,7 @@ import '../scss/styles.scss'
 import * as bootstrap from 'bootstrap'
 
 import "./cookies";
+import "./chester";
 import "@fortawesome/fontawesome-free/js/brands";
 import "@fortawesome/fontawesome-free/js/solid";
 import "@fortawesome/fontawesome-free/js/fontawesome";
