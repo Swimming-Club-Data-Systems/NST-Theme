@@ -1,81 +1,52 @@
 <?php
 
-// Code to automatically switch to/from gala home
-$td = current_time("Y-m-d", $gmt = 0);
-if ("2022-10-21" == $td || "2022-10-22" == $td || "2022-10-23" == $td) {
-    include "page-galahome.php";
-} else {
+get_header(); ?>
 
-    get_header(); ?>
-
-    <!--<div class="homepage-masthead homepage-alert bg-primary d-print-none">
-    <div class="container">
-      <p class="h3">Chester-le-Street Junior Meet 2018</p>
-      <p>Join us for our Junior Meet from 26 to 28 October, including 1500m, 800m, skins and more.</p>
-      <a class="btn btn-dark" target="_blank" style="text-decoration:none" href="https://www.chesterlestreetasc.co.uk/competitions/galas/chester-le-street-junior-meet-2018/">
-        Find out more
-      </a>
-    </div>
-  </div>-->
-
-    <?php
-    $fp_img;
+<?php
+$fp_img = null;
+$fp_image_name = 'Breaststroke.jpg';
+$fp_image_description = "Boy swimming breaststroke";
+$fp_img = "front-page-image";
+$image_picker = rand(1, 9);
+if ($image_picker == 1) {
+    $fp_image_name = 'DivingIn.jpg';
+    $fp_image_description = "Swimmers diving in for a race";
+} else if ($image_picker == 2) {
+    $fp_image_name = 'Back.jpg';
+    $fp_image_description = "Swimmers swimming in a backstroke race";
+} else if ($image_picker == 3) {
+    $fp_image_name = 'Back2.jpg';
+    $fp_image_description = "Girl swimming backstroke";
+} else if ($image_picker == 4) {
     $fp_image_name = 'Breaststroke.jpg';
     $fp_image_description = "Boy swimming breaststroke";
-    if (!isset($_COOKIE['CLSASC_AutoLogin']) && !isset($_COOKIE['CLSASC_UserInformation'])) {
-        $fp_img = "front-page-image";
-        $image_picker = rand(1, 9);
-        if ($image_picker == 1) {
-            $fp_image_name = 'DivingIn.jpg';
-            $fp_image_description = "Swimmers diving in for a race";
-        } else if ($image_picker == 2) {
-            $fp_image_name = 'Back.jpg';
-            $fp_image_description = "Swimmers swimming in a backstroke race";
-        } else if ($image_picker == 3) {
-            $fp_image_name = 'Back2.jpg';
-            $fp_image_description = "Girl swimming backstroke";
-        } else if ($image_picker == 4) {
-            $fp_image_name = 'Breaststroke.jpg';
-            $fp_image_description = "Boy swimming breaststroke";
-        } else if ($image_picker == 5) {
-            $fp_image_name = 'Butterfly.jpg';
-            $fp_image_description = "Boy swimming butterfly";
-        } else if ($image_picker == 6) {
-            $fp_image_name = 'Breaststroke2.jpg';
-            $fp_image_description = "Girl swimming breaststroke";
-        } else if ($image_picker == 7) {
-            $fp_image_name = 'Butterfly2.jpg';
-            $fp_image_description = "Girl swimming butterfly";
-        } else if ($image_picker == 8) {
-            $fp_image_name = 'Breaststroke3.jpg';
-            $fp_image_description = "Girl swimming breaststroke";
-        } else if ($image_picker == 9) {
-            $fp_image_name = 'Back3.jpg';
-            $fp_image_description = "Boy swimming backstroke";
-        }
-    }
+} else if ($image_picker == 5) {
+    $fp_image_name = 'Butterfly.jpg';
+    $fp_image_description = "Boy swimming butterfly";
+} else if ($image_picker == 6) {
+    $fp_image_name = 'Breaststroke2.jpg';
+    $fp_image_description = "Girl swimming breaststroke";
+} else if ($image_picker == 7) {
+    $fp_image_name = 'Butterfly2.jpg';
+    $fp_image_description = "Girl swimming butterfly";
+} else if ($image_picker == 8) {
+    $fp_image_name = 'Breaststroke3.jpg';
+    $fp_image_description = "Girl swimming breaststroke";
+} else if ($image_picker == 9) {
+    $fp_image_name = 'Back3.jpg';
+    $fp_image_description = "Boy swimming backstroke";
+}
 
-    // $fp_image_name = 'ElizabethIIMem.png';
-    // $fp_image_description = "Elizabeth II, 1926 - 2022";
+// $fp_image_name = 'ElizabethIIMem.png';
+// $fp_image_description = "Elizabeth II, 1926 - 2022";
 
-    ?>
+?>
 
     <div class="front-page pt-0 mb-n3 <?= $fp_img ?>">
-        <!--[if !IE]>
-        <div class="row">
-            <div class="col-md-12">
-                <hr>
-                <div class="alert alert-danger"><strong>Unsupported Browser</strong><br>You're using an unsupported
-                    browser and this website may not work properly with it. <a href="http://browsehappy.com/"
-                                                                               target="_blank">Upgrade your browser
-                        today</a> to better experience this site.</p></div>
-                <hr>
-            </div>
-        </div><![endif]-->
 
         <?php if (!isset($_COOKIE['CLSASC_AutoLogin']) && !isset($_COOKIE['CLSASC_UserInformation'])) { ?>
             <img class="img-fluid img-fp" title="<?= $fp_image_description ?>."
-                 src="https://chesterlestreetasc.co.uk/wp-content/themes/chester/img/stylish/<?= $fp_image_name ?>"
+                 src="<?= htmlspecialchars(get_template_directory_uri() . "/img/stylish/" . $fp_image_name) ?>"
                  alt="<?= $fp_image_description ?>">
         <?php } ?>
 
@@ -160,7 +131,6 @@ if ("2022-10-21" == $td || "2022-10-22" == $td || "2022-10-23" == $td) {
 
         </div>
     </div>
-
-    <!--<div class="container"><div class="row front-page-content"></div></div>-->
-    <?php get_footer();
-} ?>
+<?php
+get_footer();
+?>

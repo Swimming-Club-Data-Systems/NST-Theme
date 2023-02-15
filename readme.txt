@@ -1,9 +1,9 @@
-=== Theme Chester le Street ASC ===
-Theme Name: Chester le Street ASC (Bootstrap 4)	
+=== Theme Newcastle Swim Team ===
+Theme Name: Newcastle Swim Team (Bootstrap 5)
 Theme URI: http://www.heppellit.com/wordpress
 Author: Chris Heppell
 Author URI: http://www.heppellit.com
-Description: Chester le Street ASC (Bootstrap for Wordpress)
+Description: Newcastle Swim Team (Bootstrap for Wordpress)
 Tags: responsive-layout, one/two-columns, white, custom-menu, right-sidebar, optional-sidebar, threaded-comments, red
 Version: 20.1 (DEV)
 Text Domain: chester
@@ -20,7 +20,7 @@ Widgets Ready Sidebar
 
 Theme uses Bootstrap.
 Theme uses TGM Plugin Activation, and is licensed under GPL
-Chester le Street ASC (Bootstrap for Wordpress) theme is a WordPress version of http://getbootstrap.com/examples/blog/ (c) getbootsrap.com and twitter.com/mdo
+Newcastle Swim Team (Bootstrap for Wordpress) theme is a WordPress version of http://getbootstrap.com/examples/blog/ (c) getbootsrap.com and twitter.com/mdo
 
-Chester le Street ASC (Bootstrap for Wordpress)
+Newcastle Swim Team (Bootstrap for Wordpress)
 Theme is licensed under the GPL.

@@ -1,4 +1,4 @@
-<?php $search_terms = htmlspecialchars($_GET["s"]); ?>
+<?php $search_terms = isset($_GET["s"]) ? htmlspecialchars($_GET["s"]) : ""; ?>
 
 <form action="<?php bloginfo('siteurl'); ?>/" id="searchform" method="get">
     <label for="s" class="sr-only">Search</label>

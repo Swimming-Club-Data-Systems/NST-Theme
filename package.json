@@ -1,7 +1,7 @@
 {
   "name": "chester",
   "version": "1.0.0",
-  "description": "Key Details\r * Author: Chris Heppell\r * Author URI: http://www.heppellit.com\r * Description: Chester le Street ASC (Bootstrap 4 for WordPress)\r * Tags: responsive-layout, white, custom-menu, right-sidebar, threaded-comments, red\r * Version: 2.0.0\r * Text Domain: chester\r * License: GNU General Public License v2.0\r * License URI: http://www.gnu.org/licenses/gpl-2.0.html",
+  "description": "Key Details\r * Author: Chris Heppell\r * Author URI: http://www.heppellit.com\r * Description: Newcastle Swim Team (Bootstrap 4 for WordPress)\r * Tags: responsive-layout, white, custom-menu, right-sidebar, threaded-comments, red\r * Version: 2.0.0\r * Text Domain: chester\r * License: GNU General Public License v2.0\r * License URI: http://www.gnu.org/licenses/gpl-2.0.html",
   "main": "index.js",
   "scripts": {
     "start": "vite --port=5173",

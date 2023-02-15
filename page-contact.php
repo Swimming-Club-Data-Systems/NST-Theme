@@ -23,31 +23,31 @@
     $toUs = "Gala Coordinator <galas@chesterlestreetasc.co.uk>";
     $toSender = '' . $name . ' <' . $email . '>';
     $headersUs = array('Content-Type: text/html; charset=UTF-8', 'From: ' . $name . ' <noreply@chesterlestreetasc.co.uk>', 'Reply-To:  ' . $name . ' <' . $email . '>');
-    $headersSender = array('Content-Type: text/html; charset=UTF-8', 'From: Chester-le-Street ASC <noreply@chesterlestreetasc.co.uk>', 'Reply-To: Gala Coordinator <galas@chesterlestreetasc.co.uk>');
+    $headersSender = array('Content-Type: text/html; charset=UTF-8', 'From: Newcastle Swim Team <noreply@chesterlestreetasc.co.uk>', 'Reply-To: Gala Coordinator <galas@chesterlestreetasc.co.uk>');
   }
   if ($radioselect == "Membership Enquiries") {
     $toUs = "Membership Secretary <membership@chesterlestreetasc.co.uk>";
     $toSender = '' . $name . ' <' . $email . '>';
     $headersUs = array('Content-Type: text/html; charset=UTF-8', 'From: ' . $name . ' <noreply@chesterlestreetasc.co.uk>', 'Reply-To:  ' . $name . ' <' . $email . '>');
-    $headersSender = array('Content-Type: text/html; charset=UTF-8', 'From: Chester-le-Street ASC <noreply@chesterlestreetasc.co.uk>', 'Reply-To: Membership Secretary <membership@chesterlestreetasc.co.uk>');
+    $headersSender = array('Content-Type: text/html; charset=UTF-8', 'From: Newcastle Swim Team <noreply@chesterlestreetasc.co.uk>', 'Reply-To: Membership Secretary <membership@chesterlestreetasc.co.uk>');
   }
   if ($radioselect == "Other Enquiries") {
     $toUs = "Enquiries <enquiries@chesterlestreetasc.co.uk>";
     $toSender = '' . $name . ' <' . $email . '>';
     $headersUs = array('Content-Type: text/html; charset=UTF-8', 'From: ' . $name . ' <noreply@chesterlestreetasc.co.uk>', 'Reply-To:  ' . $name . ' <' . $email . '>');
-    $headersSender = array('Content-Type: text/html; charset=UTF-8', 'From: Chester-le-Street ASC <noreply@chesterlestreetasc.co.uk>', 'Reply-To: Enquiries <enquiries@chesterlestreetasc.co.uk>');
+    $headersSender = array('Content-Type: text/html; charset=UTF-8', 'From: Newcastle Swim Team <noreply@chesterlestreetasc.co.uk>', 'Reply-To: Enquiries <enquiries@chesterlestreetasc.co.uk>');
   }
   if ($radioselect == "Website Comments") {
     $toUs = "Web Team <web@chesterlestreetasc.co.uk>";
     $toSender = '' . $name . ' <' . $email . '>';
     $headersUs = array('Content-Type: text/html; charset=UTF-8', 'From: ' . $name . ' <noreply@chesterlestreetasc.co.uk>', 'Reply-To: ' . $name . ' <' . $email . '>');
-    $headersSender = array('Content-Type: text/html; charset=UTF-8', 'From: Chester-le-Street ASC <noreply@chesterlestreetasc.co.uk>', 'Reply-To: Web Team <web@chesterlestreetasc.co.uk>');
+    $headersSender = array('Content-Type: text/html; charset=UTF-8', 'From: Newcastle Swim Team <noreply@chesterlestreetasc.co.uk>', 'Reply-To: Web Team <web@chesterlestreetasc.co.uk>');
   }
   if ($radioselect == "Welfare") {
     $toUs = "CLS ASC Welfare <welfare@chesterlestreetasc.co.uk>";
     $toSender = '' . $name . ' <' . $email . '>';
     $headersUs = array('Content-Type: text/html; charset=UTF-8', 'From: ' . $name . ' <noreply@chesterlestreetasc.co.uk>', 'Reply-To:  ' . $name . ' <' . $email . '>');
-    $headersSender = array('Content-Type: text/html; charset=UTF-8', 'From: Chester-le-Street ASC <noreply@chesterlestreetasc.co.uk>', 'Reply-To: CLS ASC Welfare <welfare@chesterlestreetasc.co.uk>');
+    $headersSender = array('Content-Type: text/html; charset=UTF-8', 'From: Newcastle Swim Team <noreply@chesterlestreetasc.co.uk>', 'Reply-To: CLS ASC Welfare <welfare@chesterlestreetasc.co.uk>');
   }
 
   if(!$human == 0){
@@ -76,7 +76,7 @@
 
         " . "\r\n\r\n", $headersUs);
     $sentSender = wp_mail($toSender, $subject, $message = "
-    <img style=\"width:100%;max-width:200px;\" src=\"https://www.chesterlestreetasc.co.uk/wp-content/themes/chester/img/chesterLogo.png\"  alt=\"Chester-le-Street ASC\">
+    <img style=\"width:100%;max-width:200px;\" src=\"https://www.chesterlestreetasc.co.uk/wp-content/themes/chester/img/chesterLogo.png\"  alt=\"Newcastle Swim Team\">
     <p style=\"font-family:\"Open Sans\",-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;\">Thank you for getting in touch with us using the <a href=\"https://www.chesterlestreetasc.co.uk/contact\">Online Contact Form</a>.</p>
     <p style=\"font-family:\"Open Sans\",-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;\">Below is the message you sent to " . $radioselect . "</p>
     <p style=\"font-family:\"Open Sans\",-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif;\">" .  $messageText . "</p>

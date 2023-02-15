@@ -13,7 +13,7 @@
   <div class="row d-print-none" style="margin-top:0px">
     <div class="col-sm-8">
       <a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-        <img class="img-fluid logo" style="display: inline;" src="<?php echo get_template_directory_uri();?>/img/chesterLogo.svg"  alt="Chester-le-Street ASC Logo" />
+        <img class="img-fluid logo" style="display: inline;" src="<?php echo get_template_directory_uri();?>/img/chesterLogo.svg"  alt="Newcastle Swim Team Logo" />
       </a>
     </div>
     <div class="col-sm-4 d-print-none d-none">
@@ -22,7 +22,7 @@
   </div>
   <div class="row d-print-block" style="margin-top:-50px">
     <div class="col-xs-12">
-      <img class="img-fluid logo" style="display: inline;" src="<?php echo get_template_directory_uri();?>/img/chesterLogo.svg"  alt="Chester-le-Street ASC Logo">
+      <img class="img-fluid logo" style="display: inline;" src="<?php echo get_template_directory_uri();?>/img/chesterLogo.svg"  alt="Newcastle Swim Team Logo">
     </div>
   </div>
 <!--[if !IE]>
@@ -52,7 +52,7 @@
         <div class="col-sm-6 col-xs-12">
           <a class="flex-panel flex-panel-default flex-panel-body flex-panel-top-blue flex-panel-link" href="https://www.chesterlestreetasc.co.uk/sections/publications/" target="_self">
             <h3 class="entry">Latest News</h3>
-            <p>The latest news from Chester-le-Street ASC</p>
+            <p>The latest news from Newcastle Swim Team</p>
             <aside class="flex-panel-bottom-link chesterBlue">
               <img class="flex-panel-aside-icon" src="/wp-content/themes/chester/img/stylish/bluedolphins.png" aria-hidden="true"></img>
             </aside>
@@ -88,7 +88,7 @@
         <div class="col-sm-6 col-xs-12">
           <a class="flex-panel flex-panel-default flex-panel-body flex-panel-top-blue flex-panel-link" href="https://www.facebook.com/Chester-le-Street-ASC-349933305154137/" target="_blank">
             <h3 class="entry">Facebook</h3>
-            <p>Chester-le-Street ASC are on Facebook, where you can follow all our latest news</p>
+            <p>Newcastle Swim Team are on Facebook, where you can follow all our latest news</p>
             <aside class="flex-panel-bottom-link chesterBlue">
               <i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i>
             </aside>
@@ -97,7 +97,7 @@
         <div class="col-sm-6 col-xs-12">
           <a class="flex-panel flex-panel-default flex-panel-body flex-panel-top-blue flex-panel-link" href="https://www.twitter.com/CLSASC1" target="_blank">
             <h3 class="entry">Twitter</h3>
-            <p>Chester-le-Street ASC are on Twitter, where you can follow all our latest news and additional tweets during competitions</p>
+            <p>Newcastle Swim Team are on Twitter, where you can follow all our latest news and additional tweets during competitions</p>
             <aside class="flex-panel-bottom-link chesterBlue">
               <i class="fa fa-2x fa-twitter" aria-hidden="true"></i>
             </aside></a></div><div class="col-sm-6 col-xs-12">

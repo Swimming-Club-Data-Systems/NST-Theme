@@ -4,7 +4,7 @@
 <div class="container">
   <div class="row">
     <div class="col-md-8 blog-main">
-      <h1 class="entry"><?php _e('Search Results', 'chester'); ?></h1>
+      <h1 class="entry"><?php _e('Search Results', 'nst'); ?></h1>
       <hr>
       <div id="search">
         <?php get_search_form(); ?>

@@ -30,13 +30,13 @@ if ( post_password_required() ) {
 	<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // are there comments to navigate through ?>
 	   <nav id="comment-nav-below">
        <h3 class="screen-reader-text">
-         <?php _e( 'Comment navigation', 'chester' ); ?>
+         <?php _e( 'Comment navigation', 'nst' ); ?>
        </h3>
        <div class="nav-previous">
-         <?php previous_comments_link( __( '&laquo; Older Comments', 'chester' ) ); ?>
+         <?php previous_comments_link( __( '&laquo; Older Comments', 'nst' ) ); ?>
        </div>
 			<div class="nav-next">
-        <?php next_comments_link( __( 'Newer Comments &raquo;', 'chester' ) ); ?>
+        <?php next_comments_link( __( 'Newer Comments &raquo;', 'nst' ) ); ?>
       </div>
 		</nav>
 	<?php endif; // check for comment navigation ?>

@@ -2,7 +2,7 @@
   <!--<div class="row d-print-none" style="margin-top:0px">
     <div class="col-md-8">
 	  <h1 class="mb-0">
-      <a class="logo" alt="Chester-le-Street ASC" href="<?php echo esc_url( home_url( '/' ) ); ?>"></a><span class="sr-only">"Chester&#8209;le&#8209;Street&nbsp;ASC</span>
+      <a class="logo" alt="Newcastle Swim Team" href="<?php echo esc_url( home_url( '/' ) ); ?>"></a><span class="sr-only">"Chester&#8209;le&#8209;Street&nbsp;ASC</span>
     </h1>
 	</div>
 	<div class="col-md-4 d-none d-md-block">
@@ -25,7 +25,7 @@
 					<a class="btn btn-secondary" href="https://www.chesterlestreetasc.co.uk/competitions/galas/burns-meet-2019/" target="_blank">Burns Meet Details</a>
 				</div>
 				<div class="col-2">
-					<img class="img-fluid float-right" src="/wp-content/themes/chester/img/promotions/clsdascLogo.png" srcset="/wp-content/themes/chester/img/promotions/clsdascLogo@2x.png 2x, /wp-content/themes/chester/img/promotions/clsdascLogo@3x.png 3x" alt="Chester-le-Street ASC Icon">
+					<img class="img-fluid float-right" src="/wp-content/themes/chester/img/promotions/clsdascLogo.png" srcset="/wp-content/themes/chester/img/promotions/clsdascLogo@2x.png 2x, /wp-content/themes/chester/img/promotions/clsdascLogo@3x.png 3x" alt="Newcastle Swim Team Icon">
 				</div>
 			</div>
 		</div>
@@ -43,15 +43,15 @@
       <div class="featureHeader">
         <div class="row align-items-center justify-content-between">
           <div class="col">
-            <h1>Happy New Year from Chester-le-Street ASC</h1>
-            <img src="/wp-content/themes/chester/img/promotions/merryChristmas.png" srcset="/wp-content/themes/chester/img/promotions/merryChristmas@2x.png 2x, /wp-content/themes/chester/img/promotions/merryChristmas@3x.png 3x" class="img-fluid" style="margin-bottom:0.5rem; margin-right:0.3rem;" alt="Merry Christmas from Chester-le-Street ASC">
+            <h1>Happy New Year from Newcastle Swim Team</h1>
+            <img src="/wp-content/themes/chester/img/promotions/merryChristmas.png" srcset="/wp-content/themes/chester/img/promotions/merryChristmas@2x.png 2x, /wp-content/themes/chester/img/promotions/merryChristmas@3x.png 3x" class="img-fluid" style="margin-bottom:0.5rem; margin-right:0.3rem;" alt="Merry Christmas from Newcastle Swim Team">
             Get the <a class="" href="https://www.chesterlestreetasc.co.uk/2017/09/christmas-closures-2018/">Christmas Training Schedule</a> to make sure you're in the right place at the right time!
           </div>
           <div class="col-4 text-center">
             <a class="btn btn-secondary" href="https://www.chesterlestreetasc.co.uk/competitions/galas/burns-meet-2018/" target="_blank">Burns Meet Details</a>
           </div>
           <div class="col-2">
-            <img class="img-fluid float-right" src="/wp-content/themes/chester/img/promotions/clsdascLogo.png" srcset="/wp-content/themes/chester/img/promotions/clsdascLogo@2x.png 2x, /wp-content/themes/chester/img/promotions/clsdascLogo@3x.png 3x" alt="Chester-le-Street ASC Icon">
+            <img class="img-fluid float-right" src="/wp-content/themes/chester/img/promotions/clsdascLogo.png" srcset="/wp-content/themes/chester/img/promotions/clsdascLogo@2x.png 2x, /wp-content/themes/chester/img/promotions/clsdascLogo@3x.png 3x" alt="Newcastle Swim Team Icon">
           </div>
         </div>
       </div>
@@ -60,7 +60,7 @@
   <div class="d-none d-print-block">
     <div class="row">
       <div class="col-6">
-        <img class="img-fluid logo" src="<?php echo get_template_directory_uri();?>/img/chesterLogo.svg"  alt="Chester-le-Street ASC Logo">
+        <img class="img-fluid logo" src="<?php echo get_template_directory_uri();?>/img/chesterLogo.svg"  alt="Newcastle Swim Team Logo">
       </div>
     </div>
     <hr>

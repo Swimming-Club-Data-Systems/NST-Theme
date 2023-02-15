@@ -1,4 +1,4 @@
-<?
+<?php
 global $wp;
 $current_url = urlencode(home_url(add_query_arg(array(), $wp->request)));
 ?>

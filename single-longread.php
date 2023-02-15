@@ -35,12 +35,12 @@
               <ul class="cls-pager-parent row no-gutters clearfix">
                 <li class="col">
                   <div class="cls-pager cls-pager-left">
-                    <?php previous_post_link( '%link', '' . _x( '<i class="fa fa-chevron-left"></i>', 'Previous post link', 'chester' ) . ' Previous' ); ?>
+                    <?php previous_post_link( '%link', '' . _x( '<i class="fa fa-chevron-left"></i>', 'Previous post link', 'nst' ) . ' Previous' ); ?>
                   </div>
                 </li>
                 <li class="col ml-auto">
                   <div class="cls-pager cls-pager-right">
-                    <?php next_post_link( '%link', 'Next ' . _x( '<i class="fa fa-chevron-right"></i>', 'Next post link', 'chester' ) . '' ); ?>
+                    <?php next_post_link( '%link', 'Next ' . _x( '<i class="fa fa-chevron-right"></i>', 'Next post link', 'nst' ) . '' ); ?>
                   </div>
                 </li>
               </ul>

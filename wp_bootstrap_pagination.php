@@ -7,8 +7,8 @@ function wp_bootstrap_pagination( $args = array() ) {
     $defaults = array(
         'range'           => 4,
         'custom_query'    => FALSE,
-        'previous_string' => __( 'Previous', 'chester' ),
-        'next_string'     => __( 'Next', 'chester' ),
+        'previous_string' => __( 'Previous', 'nst' ),
+        'next_string'     => __( 'Next', 'nst' ),
         'before_output'   => '<nav aria-label="Page navigation"><ul class="pagination">',
         'after_output'    => '</ul></nav>'
     );
@@ -53,9 +53,9 @@ function wp_bootstrap_pagination( $args = array() ) {
     
     $firstpage = esc_attr( get_pagenum_link(1) );
     if ( $firstpage && (1 != $page) )
-        $echo .= '<li class="page-item"><a class="page-link" href="' . $firstpage . '">' . __( '<i class="fa fa-angle-double-left" aria-hidden="true"></i><p class="sr-only">First Page</p>', 'chester' ) . '</a></li>';
+        $echo .= '<li class="page-item"><a class="page-link" href="' . $firstpage . '">' . __( '<i class="fa fa-angle-double-left" aria-hidden="true"></i><p class="sr-only">First Page</p>', 'nst' ) . '</a></li>';
     if ( $previous && (1 != $page) )
-        $echo .= '<li class="page-item"><a class="page-link" href="' . $previous . '" title="' . __( 'Previous', 'chester') . '">' . $args['previous_string'] . '</a></li>';
+        $echo .= '<li class="page-item"><a class="page-link" href="' . $previous . '" title="' . __( 'Previous', 'nst') . '">' . $args['previous_string'] . '</a></li>';
     
     if ( !empty($min) && !empty($max) ) {
         for( $i = $min; $i <= $max; $i++ ) {
@@ -70,11 +70,11 @@ function wp_bootstrap_pagination( $args = array() ) {
     $next = intval($page) + 1;
     $next = esc_attr( get_pagenum_link($next) );
     if ($next && ($count != $page) )
-        $echo .= '<li class="page-item"><a class="page-link"  href="' . $next . '" title="' . __( 'Next', 'chester') . '">' . $args['next_string'] . '</a></li>';
+        $echo .= '<li class="page-item"><a class="page-link"  href="' . $next . '" title="' . __( 'Next', 'nst') . '">' . $args['next_string'] . '</a></li>';
     
     $lastpage = esc_attr( get_pagenum_link($count) );
     if ( $lastpage ) {
-        $echo .= '<li class="page-item"><a class="page-link" href="' . $lastpage . '">' . __( '<i class="fa fa-angle-double-right" aria-hidden="true"></i><p class="sr-only">Last Page</p>', 'chester' ) . '</a></li>';
+        $echo .= '<li class="page-item"><a class="page-link" href="' . $lastpage . '">' . __( '<i class="fa fa-angle-double-right" aria-hidden="true"></i><p class="sr-only">Last Page</p>', 'nst' ) . '</a></li>';
     }
     if ( isset($echo) )
         echo $args['before_output'] . $echo . $args['after_output'];

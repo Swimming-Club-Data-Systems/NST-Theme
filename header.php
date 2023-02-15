@@ -6,7 +6,7 @@ $theme_dir = get_template_directory_uri();
 ?>
 <!DOCTYPE html>
 <!--
-Copyright Chris Heppell & Chester-le-Street ASC 2017-present.
+Copyright Chris Heppell & Newcastle Swim Team 2017-present.
 Designed by Chris Heppell, chrisheppell.uk.
 Get software to manage your swimming club at myswimmingclub.uk.
 -->
@@ -20,7 +20,6 @@ Get software to manage your swimming club at myswimmingclub.uk.
     <link rel="preconnect" href="https://rsms.me/">
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <!--<script>var shiftWindow = function() { scrollBy(0, -100) }; if (location.hash) shiftWindow(); window.addEventListener("hashchange", shiftWindow);</script>-->
-    <link rel="stylesheet" href="<?= $theme_dir ?>/font-awesome/css/font-awesome.min.css" type="text/css">
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
     <link rel="icon" sizes="196x196" href="<?= $theme_dir ?>/img/touch-icon-196x196.png">
     <!-- For Chrome for Android: -->
@@ -49,8 +48,8 @@ Get software to manage your swimming club at myswimmingclub.uk.
     <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
     <link rel="apple-touch-icon-precomposed" href="<?= $theme_dir ?>/img/apple-touch-icon-precomposed.png">
     <!-- 57×57px -->
-    <link rel="mask-icon" href="<?= $theme_dir ?>/img/apple/chesterIcon.svg" color="#bd0000">
-    <meta name="application-name" content="Chester-le-Street ASC"/>
+    <!--    <link rel="mask-icon" href="--><?php //= $theme_dir ?><!--/img/apple/chesterIcon.svg" color="#bd0000">-->
+    <meta name="application-name" content="Newcastle Swim Team"/>
     <meta name="msapplication-square70x70logo" content="small.jpg"/>
     <meta name="msapplication-square150x150logo" content="medium.jpg"/>
     <meta name="msapplication-wide310x150logo" content="wide.jpg"/>
@@ -135,14 +134,14 @@ Get software to manage your swimming club at myswimmingclub.uk.
     <!--            <span class="mr-2">-->
     <!--              <a href="https://www.twitter.com/CLSASC" target="_blank" class="text-white" title="Twitter">-->
     <!--                <i class="fa fa-twitter fa-fw" aria-hidden="true"></i>-->
-    <!--                <span class="sr-only">Chester-le-Street ASC on Twitter</span>-->
+    <!--                <span class="sr-only">Newcastle Swim Team on Twitter</span>-->
     <!--              </a>-->
     <!--            </span>-->
     <!---->
     <!--                <span class="mr-2">-->
     <!--              <a href="https://www.facebook.com/CLSASC" target="_blank" class="text-white" title="Facebook">-->
     <!--                <i class="fa fa-facebook fa-fw" aria-hidden="true"></i>-->
-    <!--                <span class="sr-only">Chester-le-Street ASC on Facebook</span>-->
+    <!--                <span class="sr-only">Newcastle Swim Team on Facebook</span>-->
     <!--              </a>-->
     <!--            </span>-->
     <!--            </div>-->

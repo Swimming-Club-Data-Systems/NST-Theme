@@ -18,7 +18,7 @@ $override_page_title = $asa->title->rendered;
 get_header(); ?>
 <div class="row d-none d-print-block" style="margin-top:-50px">
   <div class="col-xs-12">
-    <img class="img-fluid logo center-block" style="display: block;" src="<?php echo get_template_directory_uri();?>/img/chesterLogo.svg"  alt="Chester-le-Street ASC Logo" />
+    <img class="img-fluid logo center-block" style="display: block;" src="<?php echo get_template_directory_uri();?>/img/chesterLogo.svg"  alt="Newcastle Swim Team Logo" />
   </div>
 </div>
 

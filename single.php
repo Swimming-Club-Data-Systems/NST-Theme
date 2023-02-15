@@ -46,15 +46,15 @@
                     <div class="cls-post-footer d-print-none">
                         <?php get_template_part('sharing'); ?>
                     </div>
-                    <?php if (previous_post_link('%link', '' . _x('<i class="fa fa-chevron-left"></i>', 'Previous post link', 'chester') . ' Previous') || next_post_link('%link', 'Next ' . _x('<i class="fa fa-chevron-right"></i>', 'Next post link', 'chester') . '')) { ?>
+                    <?php if (previous_post_link('%link', '' . _x('<i class="fa fa-chevron-left"></i>', 'Previous post link', 'nst') . ' Previous') || next_post_link('%link', 'Next ' . _x('<i class="fa fa-chevron-right"></i>', 'Next post link', 'nst') . '')) { ?>
                         <div class="cls-post-footer d-print-none">
                             <h3 class="m-t-0">Other Recent Posts</h3>
                             <ul class="cls-pager-parent row no-gutters clearfix">
                                 <li class="col">
-                                    <div class="cls-pager cls-pager-left"><?php previous_post_link('%link', '' . _x('<i class="fa fa-chevron-left"></i>', 'Previous post link', 'chester') . ' Previous'); ?></div>
+                                    <div class="cls-pager cls-pager-left"><?php previous_post_link('%link', '' . _x('<i class="fa fa-chevron-left"></i>', 'Previous post link', 'nst') . ' Previous'); ?></div>
                                 </li>
                                 <li class="col ml-auto">
-                                    <div class="cls-pager cls-pager-right"><?php next_post_link('%link', 'Next ' . _x('<i class="fa fa-chevron-right"></i>', 'Next post link', 'chester') . ''); ?></div>
+                                    <div class="cls-pager cls-pager-right"><?php next_post_link('%link', 'Next ' . _x('<i class="fa fa-chevron-right"></i>', 'Next post link', 'nst') . ''); ?></div>
                                 </li>
                             </ul>
                         </div>

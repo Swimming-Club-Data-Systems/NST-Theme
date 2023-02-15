@@ -268,7 +268,7 @@ if (!isset($_COOKIE['CLSASC_AutoLogin']) && !isset($_COOKIE['CLSASC_UserInformat
           on servers within the EEA, but not always within the United Kingdom.
         </p>
         <p class="mb-0">
-          Chester-le-Street ASC will continue to follow advice from the Government
+          Newcastle Swim Team will continue to follow advice from the Government
           and will update members if the situation changes.
         </p>
       </div>

@@ -134,8 +134,8 @@ function chester_register_sidebars()
     register_sidebar(
         array(
             'id' => 'primary',
-            'name' => __('Primary Sidebar', 'chester'),
-            'description' => __('The following widgets will appear in the Prmary Sidebar.', 'chester'),
+            'name' => __('Primary Sidebar', 'nst'),
+            'description' => __('The following widgets will appear in the Prmary Sidebar.', 'nst'),
             'before_widget' => '<div id="%1$s" class="sidebar-module widget %2$s cell">',
             'after_widget' => '</div>',
             'before_title' => '<h4 class="sidebar-module-title">',
@@ -159,7 +159,7 @@ add_action( 'wp_enqueue_scripts', 'remove_devicepx' );*/
 add_action('wp_enqueue_scripts', 'chester_scripts');
 
 register_nav_menus(array(
-    'primary' => __('Primary Menu', 'chester'),
+    'primary' => __('Primary Menu', 'nst'),
 ));
 
 //Set up title if SEO plugin is not used.
@@ -181,7 +181,7 @@ function chester_wp_title($title, $sep)
 
     // Add a page number if necessary.
     if ($paged >= 2 || $page >= 2)
-        $title = "$title $sep " . sprintf(__('Page %s', 'chester'), max($paged, $page));
+        $title = "$title $sep " . sprintf(__('Page %s', 'nst'), max($paged, $page));
 
     return $title;
 }

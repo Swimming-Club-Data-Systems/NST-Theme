@@ -32,7 +32,7 @@ get_header(); ?>
   <div class="container">
     <div class="row">
       <div class="col-lg-8 blog-main">
-        <h1><?php _e( 'The page you requested cannot be found', 'chester' ); ?></h1>
+        <h1><?php _e( 'The page you requested cannot be found', 'nst' ); ?></h1>
         <p class="lead">The page you are looking for might have been removed, had its name changed, or is temporarily unavailable. You may also not be authorised to view the page.</p>
         <hr>
 
@@ -46,7 +46,6 @@ get_header(); ?>
         <hr>
         <h2>Try searching for what you're looking for instead</h2>
         <?php get_search_form(); ?>
-        <p class="mt-2">Contact our <a href="mailto:support@chesterlestreetasc.co.uk" title="Support Hotline">support address</a> if the issue persists.</p>
       </div><!-- /.blog-main -->
     </div>
   </div>
