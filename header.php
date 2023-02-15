@@ -17,44 +17,14 @@ Get software to manage your swimming club at myswimmingclub.uk.
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="apple-mobile-web-app-title" content="Newcastle Swim Team">
     <meta name="format-detection" content="telephone=no">
+    <?php if ($_SERVER['HTTP_HOST'] != 'localhost') { ?>
+        <link rel="stylesheet" href="<?= htmlspecialchars($theme_dir . "/dist/assets/main-cb6227ee.css") ?>">
+    <?php } ?>
     <link rel="preconnect" href="https://rsms.me/">
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <!--<script>var shiftWindow = function() { scrollBy(0, -100) }; if (location.hash) shiftWindow(); window.addEventListener("hashchange", shiftWindow);</script>-->
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-    <link rel="icon" sizes="196x196" href="<?= $theme_dir ?>/img/touch-icon-196x196.png">
-    <!-- For Chrome for Android: -->
-    <link rel="icon" sizes="192x192" href="<?= $theme_dir ?>/img/touch-icon-192x192.png">
-    <!-- For iPhone 6 Plus with @3× display: -->
-    <link rel="apple-touch-icon-precomposed" sizes="180x180"
-          href="<?= $theme_dir ?>/img/apple-touch-icon-180x180-precomposed.png">
-    <!-- For iPad with @2× display running iOS ≥ 7: -->
-    <link rel="apple-touch-icon-precomposed" sizes="152x152"
-          href="<?= $theme_dir ?>/img/apple-touch-icon-152x152-precomposed.png">
-    <!-- For iPad with @2× display running iOS ≤ 6: -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144"
-          href="<?= $theme_dir ?>/img/apple-touch-icon-144x144-precomposed.png">
-    <!-- For iPhone with @2× display running iOS ≥ 7: -->
-    <link rel="apple-touch-icon-precomposed" sizes="120x120"
-          href="<?= $theme_dir ?>/img/apple-touch-icon-120x120-precomposed.png">
-    <!-- For iPhone with @2× display running iOS ≤ 6: -->
-    <link rel="apple-touch-icon-precomposed" sizes="114x114"
-          href="<?= $theme_dir ?>/img/apple-touch-icon-114x114-precomposed.png">
-    <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≥ 7: -->
-    <link rel="apple-touch-icon-precomposed" sizes="76x76"
-          href="<?= $theme_dir ?>/img/apple-touch-icon-76x76-precomposed.png">
-    <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≤ 6: -->
-    <link rel="apple-touch-icon-precomposed" sizes="72x72"
-          href="<?= $theme_dir ?>/img/apple-touch-icon-72x72-precomposed.png">
-    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
-    <link rel="apple-touch-icon-precomposed" href="<?= $theme_dir ?>/img/apple-touch-icon-precomposed.png">
-    <!-- 57×57px -->
-    <!--    <link rel="mask-icon" href="--><?php //= $theme_dir ?><!--/img/apple/chesterIcon.svg" color="#bd0000">-->
-    <meta name="application-name" content="Newcastle Swim Team"/>
-    <meta name="msapplication-square70x70logo" content="small.jpg"/>
-    <meta name="msapplication-square150x150logo" content="medium.jpg"/>
-    <meta name="msapplication-wide310x150logo" content="wide.jpg"/>
-    <meta name="msapplication-square310x310logo" content="large.jpg"/>
-    <meta name="msapplication-TileColor" content="#bd0000"/>
+    <link rel="icon" sizes="196x196" href="<?= $theme_dir ?>/img/icon-196x196.webp">
     <?php wp_head(); ?>
     <style>
         .focus-highlight a:focus, .blog-sidebar a:focus, .event a:focus, .hentry a:focus, .blog-main a:focus {
