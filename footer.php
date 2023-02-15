@@ -110,9 +110,10 @@ $current_url = urlencode(home_url(add_query_arg(array(), $wp->request)));
                 <div class="col source-org vcard copyright">
                     <p class="mb-0" style="margin-bottom:0">&copy; <?php echo current_time("Y", $gmt = 0); ?> <span
                                 class="org fn">Newcastle Swim Team</span>. NST is not responsible for
-                        the content of external sites. Design Copyright <a class="text-white" href="https://myswimmingclub.uk/"
+                        the content of external sites. Design Copyright <a class="text-white"
+                                                                           href="https://myswimmingclub.uk/"
                                                                            target="_blank">Swimming Club Data
-                            Systems</a> 2022.</p>
+                            Systems</a> 2023</p>
                 </div>
             </div>
         </div>
@@ -120,12 +121,12 @@ $current_url = urlencode(home_url(add_query_arg(array(), $wp->request)));
 
     <?php wp_footer(); ?>
     <?php $theme_dir = get_template_directory_uri(); ?>
-    <?php if (true) { ?>
+    <?php if ($_SERVER['HTTP_HOST'] == 'localhost') { ?>
         <!-- if development -->
         <script type="module" src="http://localhost:5173/@vite/client"></script>
         <script type="module" src="http://localhost:5173/js/main.js"></script>
     <?php } else { ?>
-        <script type="module" src="<?= htmlspecialchars($theme_dir . "/js/main.js") ?>"></script>
+        <script type="module" src="<?= htmlspecialchars($theme_dir . "/dist/assets/main-ebb66399.js") ?>"></script>
     <?php } ?>
 </footer>
 </body>

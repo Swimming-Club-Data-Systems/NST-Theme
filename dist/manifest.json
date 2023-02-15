@@ -1,0 +1,21 @@
+{
+  "img/stylish/poolWaterBG.jpg": {
+    "file": "assets/poolWaterBG-1bbb202a.jpg",
+    "src": "img/stylish/poolWaterBG.jpg"
+  },
+  "js/main.css": {
+    "file": "assets/main-cb6227ee.css",
+    "src": "js/main.css"
+  },
+  "js/main.js": {
+    "file": "assets/main-ebb66399.js",
+    "src": "js/main.js",
+    "isEntry": true,
+    "css": [
+      "assets/main-cb6227ee.css"
+    ],
+    "assets": [
+      "assets/poolWaterBG-1bbb202a.jpg"
+    ]
+  }
+}
