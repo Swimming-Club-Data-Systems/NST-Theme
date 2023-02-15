@@ -44,11 +44,9 @@ if ($image_picker == 1) {
 
     <div class="front-page pt-0 mb-n3 <?= $fp_img ?>">
 
-        <?php if (!isset($_COOKIE['CLSASC_AutoLogin']) && !isset($_COOKIE['CLSASC_UserInformation'])) { ?>
-            <img class="img-fluid img-fp" title="<?= $fp_image_description ?>."
-                 src="<?= htmlspecialchars(get_template_directory_uri() . "/img/stylish/" . $fp_image_name) ?>"
-                 alt="<?= $fp_image_description ?>">
-        <?php } ?>
+<!--        <img class="img-fluid img-fp" title="--><?php //= $fp_image_description ?><!--."-->
+<!--             src="--><?php //= htmlspecialchars(get_template_directory_uri() . "/img/stylish/" . $fp_image_name) ?><!--"-->
+<!--             alt="--><?php //= $fp_image_description ?><!--">-->
 
         <div class="container">
             <div class="row mb-4">

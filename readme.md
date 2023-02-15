@@ -3,7 +3,7 @@
 Key Details
 * Author: Chris Heppell
 * Author URI: http://www.heppellit.com
-* Description: Newcastle Swim Team (Bootstrap 4 for WordPress)
+* Description: Newcastle Swim Team (Bootstrap 5 for WordPress)
 * Tags: responsive-layout, white, custom-menu, right-sidebar, threaded-comments, red
 * Version: 2.0.0
 * Text Domain: chester
